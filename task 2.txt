@@ -1,0 +1,90 @@
+                    TASK - 2
+	WRITE A DIFFERENCE BETWEEN BROWSER JS(CONSOLE)  AND NODEJS:
+	
+	BROWSER JS(CONSOLE)
+	1."Window" are predefined function that has function and attributes to deal with has been dawn.
+	2."location" are predegined object in browser that has all the information about the url we have loaded.
+	3.documents are predefined global variable in browser has the HTML which is rendered.
+	4. Browser may have an object name global variable but it will be the exact one as window.
+	5.browser don't have require predefined may include in your app for asynchronous file loading.
+	Moduling is not mandatory in client side javascript i.e. in browsers.
+	
+	NODEJS
+	1.Node doesn't have a predefined "window" object cause it doesn't have a window to draw anything.
+	2.Location object specific to paticular url,that means page specfic, node doesn't require that.
+	3.Node js does not have document object cause it never rebdered anything in page.
+	4.Global are predefined in nodes.but doesn't available in browser it need a server side work only.
+	5.Require object is predefined in node is used to include module in app. 
+	in node everything in module. you must keep code inside the module.
+	
+	
+	code:      typeof(1)
+    answer:    'number'
+	reason:     the data type for 1 is number.inside the brakect the value is return in number.
+    
+	code:       typeof(1.1)
+    answer:     'number'
+	reason:     the data type of 1.1 is float because the number return in decimal value its float value.
+	
+    code:       typeof('1.1')
+    answer:     'string'
+	reason:     the data type '1.1' is string the value in brakect is return in single quotation. normally string will be denoted in single or double quotation.
+	
+	
+    code:       typeof(true)
+    answer:     'boolean'
+    reason:     the data type of true is boolean.boolean has two things true and false.
+	
+	
+    code:       typeof(null)
+    answer:     'object'
+	reason:     its a weird thing null is an object in javascript.
+	
+	
+    code:       typeof(undefined)
+    answer:     'undefined'
+	reason:     the is nothing in brakect so its undefined.
+	
+	
+    code:       typeof([])
+    answer:     'object'
+	reason:     the square brakect is consider as object in javascript. and inside the value is also consider as object.
+	
+	
+    code:      typeof({})
+    answer:    'object'
+	reason:    the curly brakect is consider as object.
+	
+	
+    code:      typeof(NaN)
+    answer:    'number'
+	
+	
+	SUMMARY HOW DOES BROWSER ACTUALLY RENDER A WEBSITE:
+	
+	1.high level view
+	2.in depth view
+	3.performance view
+	
+	
+	a) in high level view: using html
+      html is forgiving nature,can be halted,parsing isn't straight forward.
+      remember xhtml strict- it give error 
+                             dynamic content
+     tokenizer :
+        tags <tagname>
+        close tag</tagname>
+       
+      in html it include body tag,paragraphtag everything tokenizer is full of html format.
+     speculative parsing include script image link href tag   
+    
+    b) css parsing:
+       it make color full to web browser it we block it it inly give content css make attractive in childern too.
+       we all know it contain color and style. in CSSOM
+       EG:WIKIPEDIA if you see it the uses of color fonts,styles and html tag make it more attractive.
+ 
+    c) performance view:
+         the output in visual. it has may layer to give the good website
+
+    in this video they say about how a website inside it created if you want to know more about in practical go to any webside do right click and source then choose css 
+     then block the things refresh the page and see how css made to cover page.if any one is not there the page will me less attractive.	
